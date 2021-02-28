@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Carbon Footprint Calculator</title>
+</head>
+<body>
+    <section id="section-1">
+        <div id="top">
+        
+
+        <div id="title-div">
+            <h1>Rediscover your food</h1>
+            <p>Carbon Footprint Food Calculator</p>
+            <button id="learn-more" class="button"><a href="#section-2" id="learn-more_link">Learn more</a></button></a>
+        </div>
+
+        <form action="#">
+
+        <div id="container">
+                <select name="food-group" id="food-group_select">
+                    <option value="">-- Food group --</option>
+                    <option value="">Food group 1</option>
+                    <option value="">Food group 2</option>
+                    <option value="">Food group 3</option>
+                    <option value="">Food group 4</option>
+                </select>
+
+                <select name="country" id="country_select">
+                    <option value="">-- Country of origin --</option>
+                    <option value="">Country 1</option>
+                    <option value="">Country 2</option>
+                    <option value="">Country 3</option>
+                    <option value="">Country 4</option>
+                </select>
+
+                <input type="number" id="weight-input" placeholder="Weight (kg)">
+            
+            <div id="button-container">
+                <a href="">
+                    <input type="button" id="calculate-button" value="Calculate">
+                </a>    
+            <input type="button" id="add-button" value="Add">
+            </div>
+
+        </div>        
+
+        </form>
+        </div>
+
+    </section>
+                                                            
+                                                        <!-- Section 2 -->
+
+    <section id="section-2" name="section-2">
+        <button class="button" id="back-to-top"><a href="#section-1" id="back-to-top_link">Back to top</a></button>
+        
+        <div id="tips-container">
+            <button class="button tip" onclick="change(1)">Tip 1</button>
+            <button class="button tip" onclick="change(2)">Tip 2</button>
+            <button class="button tip" onclick="change(3)">Tip 3</button>
+        </div>
+        <div class="text-box" id="tb_1">Your carbon footprint calculated above 
+            takes into account the emissions involved in processes like farming, 
+            processing, packaging, and transporting food. It is a measure of <p class="important-text">how much CO2 is released</p> into the atmosphere as a result<br/><br/>
+            Carbon Dioxide is one of the main culprits of global warming. So the more CO2 emitted, the greater the consequences of climate change (rising sea levels, extreme weather eek!)
+          </div>
+        <div class="text-box" id="tb_2">
+            <div>But don't worry, there are loads of ways you can help!</div>
+             <br>
+            <div class="tip" id="tip"><p class="important-text">Reduce food waste</p> - One third of all food produced is wasted,<br>representing 14 million tonnes of carbon dioxide emissions in the UK (equivalent to the CO2 produced by 7 million cars each year!)</div> 
+        </div>
+
+
+
+    </section>
+
+    </section>
+</body>
+
+<script type="text/javascript" src="change.js"></script>
+</html>
