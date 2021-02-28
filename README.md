@@ -7,3 +7,4 @@ Project Instructions:
 Run the calculator python file to access a carbon calculator where the user inputs a food along with its source
 and weight and then the C02e emissions are calculated and outputted.
 
+Also includes an incomplete prototype web page, showcasing what the end project could be if given more time.
